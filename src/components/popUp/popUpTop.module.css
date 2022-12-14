@@ -1,0 +1,29 @@
+.con{
+  background-color: #4fff83a1;
+  color: #000000;
+  height: 80px;
+  max-height: 300;
+  position: absolute;
+  width: 200px;
+  z-index: 10;
+  top: -80px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.exit{
+  position: absolute;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+}
+.bold{
+  font-weight: bold;
+}
+
+.infoCon{
+  padding: 10px;
+}
+
+.infoCon div{
+  font-size: 19px;
+}

@@ -1,0 +1,18 @@
+
+.itemCon{
+  width: 200px;
+  position: relative;
+}
+.itemLabel{
+  height: 20px;
+  text-align: center;
+  color: aliceblue;
+}
+.itemBox{
+}
+.hover{
+  cursor: pointer;
+}
+.itemConOnPopUp{
+  background-color: #4fff83a1;
+}

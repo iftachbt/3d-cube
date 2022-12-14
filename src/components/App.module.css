@@ -1,0 +1,54 @@
+.canvas div{
+  height: 500PX !important ;
+  display: block
+}
+.mainCon{
+  display: flex;
+  width: 100%;
+  margin: 35vh 0 0 0;
+  justify-content: center;
+}
+.canvasCon{
+  display: block;
+}
+.filterInputCon{
+  position: fixed;
+  top: 13vh;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin: auto;
+}
+.background{
+  position:fixed;
+  z-index: -100000000;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-image: url("./assats/rickAndMortyBG.jpg");
+  background-repeat: round;
+}
+.buttonsCon{
+  position: absolute;
+  text-align: center;
+  bottom: 17vh;
+  right: 0;
+  left: 0;
+  margin: auto;
+  width: fit-content;
+  background-color: #fcfcfc73;
+  border-radius: 8px;
+}
+.Input{
+  padding: 4px 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  border-bottom: solid 3px aliceblue;
+  background-color: #fcfcfc73;
+}
+::placeholder { 
+  color: rgb(0, 0, 0);
+  opacity: 1; 
+}
